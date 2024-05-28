@@ -1,0 +1,18 @@
+{
+  "name": "Bonishop",
+  "version": "1.0.0",
+  "description": "Proyecto de un e-commerce con distintos ambientes",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "live-server --port=8080 --open=/?env=dev",
+    "qa": "live-server --port=8081 --open=/?env=qa",
+    "prod": "live-server --port=80 --open=/?env=prod"
+  },
+  "keywords": [],
+  "author": "IvelizAyala",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
