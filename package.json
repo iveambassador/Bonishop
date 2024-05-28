@@ -13,6 +13,7 @@
   "author": "IvelizAyala",
   "license": "ISC",
   "devDependencies": {
+    "jasmine": "^5.1.0",
     "live-server": "^1.2.2"
   }
 }
