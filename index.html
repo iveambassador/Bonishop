@@ -74,7 +74,7 @@
             // Obtener el ambiente de los parámetros de la URL
             const env = getQueryParam('env') || 'dev';
 
-            const envTextElement = document.getElementById('env-text');
+            const envTextElement = document.querySelector('aside h2.env-text');
 
             // Mostrar el texto del ambiente
             switch (env) {
